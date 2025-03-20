@@ -1,0 +1,87 @@
+[
+    {
+        "hyperparams": {
+            "epochs": 30,
+            "batch": 8,
+            "imgsz": 640,
+            "lr": 0.005,
+            "lrf": 0.05241004024827633,
+            "momentum": 0.9325648185495222,
+            "weight_decay": 0.0001,
+            "warmup": 2.9524625622451985,
+            "workers": 2,
+            "patience": 30
+        },
+        "experiment_name": "random_trial_1_e30_b8",
+        "status": "failed",
+        "error": "Invalid CUDA 'device=0' requested. Use 'device=cpu' or pass valid CUDA device(s) if available, i.e. 'device=0' or 'device=0,1,2,3' for Multi-GPU.\n\ntorch.cuda.is_available(): False\ntorch.cuda.device_count(): 0\nos.environ['CUDA_VISIBLE_DEVICES']: None\nSee https://pytorch.org/get-started/locally/ for up-to-date torch install instructions if no CUDA devices are seen by torch.\n"
+    },
+    {
+        "hyperparams": {
+            "epochs": 30,
+            "batch": 8,
+            "imgsz": 512,
+            "lr": 0.005,
+            "lrf": 0.10601750473963885,
+            "momentum": 0.8047764745430955,
+            "weight_decay": 0.0003,
+            "warmup": 3.5800980646120175,
+            "workers": 2,
+            "patience": 100
+        },
+        "experiment_name": "random_trial_2_e30_b8",
+        "status": "failed",
+        "error": "Invalid CUDA 'device=0' requested. Use 'device=cpu' or pass valid CUDA device(s) if available, i.e. 'device=0' or 'device=0,1,2,3' for Multi-GPU.\n\ntorch.cuda.is_available(): False\ntorch.cuda.device_count(): 0\nos.environ['CUDA_VISIBLE_DEVICES']: 0\nSee https://pytorch.org/get-started/locally/ for up-to-date torch install instructions if no CUDA devices are seen by torch.\n"
+    },
+    {
+        "hyperparams": {
+            "epochs": 50,
+            "batch": 32,
+            "imgsz": 640,
+            "lr": 0.001,
+            "lrf": 0.1541733997546558,
+            "momentum": 0.8287386769478402,
+            "weight_decay": 0.001,
+            "warmup": 1.7012525825899594,
+            "workers": 2,
+            "patience": 50
+        },
+        "experiment_name": "random_trial_3_e50_b32",
+        "status": "failed",
+        "error": "Invalid CUDA 'device=0' requested. Use 'device=cpu' or pass valid CUDA device(s) if available, i.e. 'device=0' or 'device=0,1,2,3' for Multi-GPU.\n\ntorch.cuda.is_available(): False\ntorch.cuda.device_count(): 0\nos.environ['CUDA_VISIBLE_DEVICES']: 0\nSee https://pytorch.org/get-started/locally/ for up-to-date torch install instructions if no CUDA devices are seen by torch.\n"
+    },
+    {
+        "hyperparams": {
+            "epochs": 50,
+            "batch": 24,
+            "imgsz": 416,
+            "lr": 0.001,
+            "lrf": 0.0821861871210941,
+            "momentum": 0.8646162884872332,
+            "weight_decay": 0.0005,
+            "warmup": 3.0186301568344556,
+            "workers": 2,
+            "patience": 30
+        },
+        "experiment_name": "random_trial_4_e50_b24",
+        "status": "failed",
+        "error": "Invalid CUDA 'device=0' requested. Use 'device=cpu' or pass valid CUDA device(s) if available, i.e. 'device=0' or 'device=0,1,2,3' for Multi-GPU.\n\ntorch.cuda.is_available(): False\ntorch.cuda.device_count(): 0\nos.environ['CUDA_VISIBLE_DEVICES']: 0\nSee https://pytorch.org/get-started/locally/ for up-to-date torch install instructions if no CUDA devices are seen by torch.\n"
+    },
+    {
+        "hyperparams": {
+            "epochs": 100,
+            "batch": 8,
+            "imgsz": 800,
+            "lr": 0.001,
+            "lrf": 0.11488771994191313,
+            "momentum": 0.9492928395655391,
+            "weight_decay": 0.0005,
+            "warmup": 2.88676072628381,
+            "workers": 2,
+            "patience": 30
+        },
+        "experiment_name": "random_trial_5_e100_b8",
+        "status": "failed",
+        "error": "Invalid CUDA 'device=0' requested. Use 'device=cpu' or pass valid CUDA device(s) if available, i.e. 'device=0' or 'device=0,1,2,3' for Multi-GPU.\n\ntorch.cuda.is_available(): False\ntorch.cuda.device_count(): 0\nos.environ['CUDA_VISIBLE_DEVICES']: 0\nSee https://pytorch.org/get-started/locally/ for up-to-date torch install instructions if no CUDA devices are seen by torch.\n"
+    }
+]
