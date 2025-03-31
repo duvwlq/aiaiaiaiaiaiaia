@@ -1,0 +1,42 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.13.0",
+  "startedAt":  "2025-03-20T17:34:48.275693Z",
+  "program":  "C:\\Users\\dnjs8\\IdeaProjects\\aiaiaiaiaiaiaia\\newmain.py",
+  "codePath":  "newmain.py",
+  "git":  {
+    "remote":  "https://github.com/duvwlq/aiaiaiaiaiaiaia.git",
+    "commit":  "c2db9a9a9a25f2e8cdbf2b7e82035c1486745603"
+  },
+  "email":  "dnjs820@naver.com",
+  "root":  "C:\\Users\\dnjs8\\IdeaProjects\\aiaiaiaiaiaiaia",
+  "host":  "정근원_PC",
+  "executable":  "C:\\Users\\dnjs8\\IdeaProjects\\aiaiaiaiaiaiaia\\.venv\\Scripts\\python.exe",
+  "codePathLocal":  "newmain.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce RTX 4080",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "510309429248",
+      "used":  "439895732224"
+    }
+  },
+  "memory":  {
+    "total":  "33440026624"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  16
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4080",
+      "memoryTotal":  "17171480576",
+      "cudaCores":  9728,
+      "architecture":  "Ada"
+    }
+  ],
+  "cudaVersion":  "12.8"
+}
