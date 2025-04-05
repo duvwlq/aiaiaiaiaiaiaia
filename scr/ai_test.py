@@ -71,7 +71,7 @@ def predict_and_visualize(model_path, test_image_path, output_path="result_predi
 if __name__ == "__main__":
     # 사용자 입력 경로
     model_path = r"models/best.pt"  # 학습된 모델 경로
-    test_image_path = r"image_모음/test_image/58.jpg"  # 테스트할 이미지 경로
+    test_image_path = r"image_모음/test_image/image.jpg"  # 테스트할 이미지 경로
     output_image_path = r"image_모음/결과_image/result.png"  # 예측 결과 이미지 저장 경로
 
     try:

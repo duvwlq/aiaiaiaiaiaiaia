@@ -109,7 +109,7 @@ def perform_kfold_cv(data_yaml, k, args):
 def train_yolo(args):
     # wandb API Key 설정 (환경 변수로부터 가져오기)
     try:
-        api_key = os.environ.get("WANDB_API_KEY", 'b9fdc10ce1e9c765048aff236d3444bb26c512ab')
+        api_key = os.environ.get("WANDB_API_KEY", 'API')
         if not api_key:
             raise ValueError("WANDB_API_KEY가 설정되지 않았습니다. export WANDB_API_KEY로 설정해주세요.")
         wandb.login(key=api_key)
